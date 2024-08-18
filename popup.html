@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Volume Control</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+  <label id="autoVolContainer">
+    <input type="checkbox" name="autoVol" id="autoCheck">
+    <div class="checkBox">🔊</div>
+
+    <input type="range" min="1" max="100" value="50" id="minSlider">
+    <div id="minVal" class="status">MIN: 0</div>
+
+    <input type="range" min="1" max="100" value="50" id="maxSlider">
+    <div id="maxVal" class="status">MAX: 0</div>
+  </label>
+  <script src="popup.js">test</script>
+</body>
+</html>
